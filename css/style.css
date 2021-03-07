@@ -16,12 +16,17 @@
   padding: 20px;
   text-align: center;
 }
-p,
+
+.p-test,
 .find-more {
   display: block;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
   margin-bottom: 100px;
   color: white;
+}
+.find-more {
+  text-transform: line;
 }
 
 h2 {
@@ -204,7 +209,6 @@ input {
   margin-left: 0px;
 }
 .ct-flex-body {
-  background-color: white;
   width: auto;
   height: 30%;
   padding-top: 30px;
@@ -222,4 +226,34 @@ input {
   border-radius: 5px;
   display: block;
   margin-left: auto;
+}
+.item-title,
+h4,
+p,
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h4 {
+  text-transform: bold;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+.comment-line,
+a {
+  margin-bottom: 7px;
+  text-decoration: none;
+  padding-right: 5px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.item-title {
+  margin-bottom: 0px;
+}
+.fa-long-arrow-right {
+  font-size: 14px;
+  color: back;
+}
+
+.blog-text {
+  padding: 15px;
 }
